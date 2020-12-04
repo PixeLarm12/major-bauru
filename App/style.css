@@ -1,0 +1,495 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  position: relative;
+  width: 100%;
+  font-size: 16px;
+  font-family: Verdana;
+  background-color: #2e2e2e;
+  min-height: 100%;
+}
+
+.title {
+  width: 100%;
+  float: right;
+  height: 50px;
+  font-size: 22px;
+  color: #f5f5f5;
+  background-color: #00468c;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  display: flex;
+}
+
+.login {
+  width: 100%;
+  height: 30px;
+  font-size: 16px;
+  color: #f5f5f5;
+  background-color: #00468c;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  display: flex;
+}
+
+a.linkNav:link {
+  font-size: 18px;
+  color: white;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-decoration: none;
+}
+
+a.linkNav:visited {
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+}
+
+a.linkNav:hover {
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 120%;
+  color: white;
+  background-color: #d96909;
+  text-decoration: none;
+  border: transparent;
+  border-width: 2px;
+  border-radius: 5px;
+}
+
+a.linkNav:active {
+  width: 100px;
+  height: 30px;
+  font-size: 20%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: #00468c;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  border: transparent;
+  border-width: 2px;
+  border-radius: 5px;
+}
+
+.container {
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 0px;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+  height: 400px;
+}
+
+.table-index {
+  margin: 0;
+  align-content: center;
+  border-style: none;
+  text-align: center;
+}
+
+.row-index {
+  margin: 0;
+  align-content: center;
+  border-style: none;
+  text-align: center;
+}
+
+.column-index {
+  width: auto;
+  height: auto;
+  align-content: center;
+  border-style: none;
+  border-color: transparent;
+  background-color: transparent;
+  text-align: center;
+}
+
+.button {
+  font-size: 42px;
+  width: 360px;
+  height: 120px;
+  color: #e8e8e8;
+  border-style: none;
+  border-radius: 20px;
+  text-align: center;
+  align-content: center;
+  background-color: #00468c;
+  margin-top: 0;
+  margin-bottom: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.button:hover {
+  font-size: 50px;
+  border-color: #ad5305;
+  background-color: #d96909;
+}
+
+.button:active {
+  border-color: #003366;
+  background-color: #00468c;
+}
+
+.logo {
+  margin-top: 50px;
+  width: 200px;
+  height: 200px;
+}
+
+.logoDiv {
+  margin: 0;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  display: flex;
+}
+
+.logoDashboard {
+  width: 250px;
+  margin-top: 200px;
+}
+
+.navbar {
+  width: 100%;
+  float: right;
+  height: 30px;
+  color: #f5f5f5;
+  background-color: #0053a6;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  display: flex;
+}
+
+.tableTitle {
+  height: 70px;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 0px;
+  font-size: 22px;
+  color: #f5f5f5;
+  background-color: #005dba;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  display: flex;
+  border: transparent;
+  border-width: 3px;
+  border-top-left-radius: 13px;
+  border-top-right-radius: 13px;
+}
+
+a.player-item:link {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+}
+
+a.player-item:visited {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+}
+
+a.player-item:hover {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #d96909;
+  text-decoration: none;
+}
+
+a.player-item:active {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+}
+
+.tableItems {
+  width: 50%;
+  height: 25px;
+  margin-right: 25%;
+  margin-left: 25%;
+  justify-content: left;
+  display: flex;
+  text-align: left;
+  align-items: left;
+  align-content: left;
+  flex-direction: column;
+}
+
+.tableItemsMatches {
+  width: 70%;
+  height: 30px;
+  margin-right: 15%;
+  margin-left: 15%;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: row;
+}
+
+.tableRowMatch {
+  text-align: left;
+  width: 50%;
+  margin-right: 25%;
+  margin-left: 25%;
+  background-color: #454545;
+}
+
+.tableRow {
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  width: 50%;
+  margin-right: 25%;
+  margin-left: 25%;
+  padding-bottom: 10px;
+  background-color: #454545;
+}
+
+.input {
+  font-size: 18px;
+  width: 200px;
+  height: 40px;
+  outline-color: #d96909;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  border: transparent;
+  text-align: center;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+}
+
+input:hover {
+  border: #d96909;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+}
+
+.formCenter {
+  color: white;
+  width: 50%;
+  height: auto;
+  margin-top: 30px;
+  margin-left: 25%;
+  margin-right: 25%;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  background-color: transparent;
+  flex-direction: column;
+}
+
+.formLeft {
+  color: white;
+  width: 25%;
+  height: auto;
+  margin-top: 30px;
+  margin-left: 25%;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  background-color: transparent;
+  flex-direction: column;
+  float: left;
+}
+
+.formRight {
+  color: white;
+  width: 25%;
+  float: right;
+  height: auto;
+  margin-top: 30px;
+  margin-right: 25%;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  background-color: transparent;
+  flex-direction: column;
+}
+
+.buttonSend {
+  width: 16%;
+  height: 50px;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-left: 42%;
+  margin-right: 42%;
+  text-align: center;
+  color: white;
+  border-style: none;
+  background-color: #147ce3;
+  border-width: 10px;
+  border-radius: 5px;
+}
+
+.buttonDelete {
+  width: 16%;
+  height: 50px;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-left: 42%;
+  margin-right: 42%;
+  text-align: center;
+  color: white;
+  border-style: none;
+  background-color: #bf1d11;
+  border-width: 10px;
+  border-radius: 5px;
+}
+
+.marker {
+  font-size: 20px;
+  color: #ffde0a;
+  text-decoration: none;
+}
+
+.list {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+}
+
+.tableScore {
+  text-align: center;
+  color: white;
+  border: transparent;
+  background-color: #454545;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.tableScoreTitle {
+  margin-top: 30px;
+  text-align: center;
+  color: white;
+  border: transparent;
+  border-width: 0px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: #005dba;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.rankTable {
+  text-align: left;
+}
+
+.nameTable {
+  text-align: center;
+}
+
+.pointTable {
+  text-align: right;
+}
+
+.keys {
+  width: 100%;
+  margin: 0px;
+}
+
+.blocked {
+  margin-top: 30px;
+  width: 200;
+  height: 200;
+}
+
+a.logout:link {
+  font-size: 14px;
+  color: #d96909;
+  text-decoration: none;
+}
+
+a.logout:visited {
+  font-size: 14px;
+  color: #d96909;
+  text-decoration: none;
+}
+
+a.logout:hover {
+  font-size: 14px;
+  color: #d96909;
+  text-decoration: underline;
+}
+
+a.logout:active {
+  font-size: 14px;
+  color: #d96909;
+  text-decoration: none;
+}
+
+.details {
+  font-size: 16px;
+  color: #d96909;
+  text-decoration: none;
+}
+
+.error {
+  font-size: 16px;
+  color: #ed1c1c;
+  text-decoration: none;
+}
+
+.highlight {
+  font-size: 16px;
+  color: #f78625;
+  text-decoration: none;
+}
